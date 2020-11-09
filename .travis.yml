@@ -7,4 +7,4 @@ script:
 install:
   - npm install -g firebase-tools
 after_success:
-  - firebase deploy --project telegrambot-e63eb --token 1//0g6F3LqApN0NECgYIARAAGBASNwF-L9IrFfJGePk62y6osbGSWPE2IXhWsS50juiQFFU79Glvg8Z2Ly5zmgcv6IEq09E-FqV_nr8
+  - firebase deploy --project telegrambot-e63eb --token $FIREBASE_TOKEN
